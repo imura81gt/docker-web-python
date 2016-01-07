@@ -1,0 +1,49 @@
+{% extends  'base.html' %}
+
+
+{% block main %}
+Å◊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div ng-controller="DemoCtrl" layout="column" ng-cloak="" class="md-inline-form inputdemoBasicUsage" ng-app="MyApp" layout-align="center strech">
+
+  <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding="">
+    <div>
+      <form name="userForm">
+
+        <md-input-container class="md-block">
+          <label>文章</label>
+          <textarea ng-model="user.biography" md-height="20" columns="999" md-maxlength="150" rows="100"></textarea>
+        </md-input-container>
+
+
+      </form>
+    </div>
+  </md-content>
+
+  <section layout="column" layout-sm="column" layout-align="center strech" layout-wrap="">
+    <md-button class="md-raised">Check NG Word!</md-button>
+  </section>
+
+</div>
+{% endblock %}
